@@ -1,0 +1,799 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LAN XP - 127.0.0.1 | La LAN Party Definitiva</title>
+    <meta name="description" content="La experiencia gaming más innovadora y diferencial. LAN Party con cosplays, monedas XP, reciclaje y mucho más.">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700;900&family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loading-screen">
+        <div class="loader">
+            <div class="pixel-heart"></div>
+            <p class="loading-text">Cargando LAN XP...</p>
+            <div class="progress-bar">
+                <div class="progress-fill"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Particles Background -->
+    <div id="particles-js"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <span class="logo-icon">🎮</span>
+                <span class="logo-text">LAN XP</span>
+            </div>
+            <button class="menu-toggle" id="menuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#inicio" class="nav-link">Inicio</a></li>
+                <li><a href="#evento" class="nav-link">El Evento</a></li>
+                <li><a href="#horario" class="nav-link">Horario</a></li>
+                <li><a href="#competiciones" class="nav-link">Competiciones</a></li>
+                <li><a href="#cosplay" class="nav-link">Cosplay</a></li>
+                <li><a href="#tienda" class="nav-link">Tienda XP</a></li>
+                <li><a href="#entradas" class="nav-link">Entradas</a></li>
+                <li><a href="#contacto" class="nav-link">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <div class="hero-glitch" data-text="LAN XP">LAN XP</div>
+            <h1 class="hero-title">127.0.0.1</h1>
+            <p class="hero-subtitle">La LAN Party más local y limitada del año</p>
+            <p class="hero-description">Donde la IP es tu pase y el misterio es el juego</p>
+
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <span class="stat-number" data-target="167000">0</span>
+                    <span class="stat-label">Capacidad Máxima</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" data-target="7">0</span>
+                    <span class="stat-label">Días de Evento</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" data-target="5">0</span>
+                    <span class="stat-label">Juegos Competitivos</span>
+                </div>
+            </div>
+
+            <div class="hero-cta">
+                <a href="#entradas" class="btn btn-primary">
+                    <span>Conseguir Entrada</span>
+                    <div class="btn-shine"></div>
+                </a>
+                <a href="#evento" class="btn btn-secondary">
+                    <span>Descubre Más</span>
+                </a>
+            </div>
+
+            <div class="scroll-indicator">
+                <div class="mouse">
+                    <div class="wheel"></div>
+                </div>
+                <p>Scroll para explorar</p>
+            </div>
+        </div>
+
+        <!-- Animated Background -->
+        <div class="hero-bg">
+            <div class="grid-overlay"></div>
+            <div class="floating-icons">
+                <span class="icon">🎮</span>
+                <span class="icon">🕹️</span>
+                <span class="icon">👾</span>
+                <span class="icon">🎯</span>
+                <span class="icon">⚡</span>
+                <span class="icon">🏆</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="evento" class="section about-section">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">
+                <span class="title-icon">⚡</span>
+                Sobre el Evento
+                <span class="title-decoration"></span>
+            </h2>
+
+            <div class="about-grid">
+                <div class="about-card" data-aos="fade-right">
+                    <div class="card-icon">🎯</div>
+                    <h3>¿Quiénes Somos?</h3>
+                    <p>Somos una empresa especializada en el desarrollo de eventos, especialmente LAN's basadas en eSports. Desde 2022, hemos organizado múltiples torneos de Valorant, CS:GO y otros juegos competitivos, llenando pabellones enteros como La Fira de Barcelona.</p>
+                </div>
+
+                <div class="about-card" data-aos="fade-up">
+                    <div class="card-icon">🚀</div>
+                    <h3>Innovación</h3>
+                    <p>Monedas XP físicas intercambiables por premios, cosplays dentro del juego, sistema de reciclaje gamificado, y una experiencia inmersiva única. Cada año una nueva temática que marca tendencia.</p>
+                </div>
+
+                <div class="about-card" data-aos="fade-left">
+                    <div class="card-icon">🌟</div>
+                    <h3>Patrocinadores Premium</h3>
+                    <p>Contamos con el respaldo de Monster, McDonald's, Netflix, Nocilla, Coca-Cola, Red Bull y Microsoft. Una experiencia de primera con las mejores marcas.</p>
+                </div>
+            </div>
+
+            <!-- Features -->
+            <div class="features-grid">
+                <div class="feature-item" data-aos="zoom-in" data-aos-delay="0">
+                    <div class="feature-icon">🪙</div>
+                    <h4>Monedas XP</h4>
+                    <p>Gana monedas jugando, reciclando y participando. Cámbialas por premios exclusivos.</p>
+                </div>
+                <div class="feature-item" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="feature-icon">👗</div>
+                    <h4>Cosplay Competitivo</h4>
+                    <p>Juega disfrazado de tu personaje. Premios especiales al mejor cosplay.</p>
+                </div>
+                <div class="feature-item" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="feature-icon">♻️</div>
+                    <h4>Papelera XP</h4>
+                    <p>Recicla y gana monedas XP. Innovación ecológica gamificada.</p>
+                </div>
+                <div class="feature-item" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="feature-icon">🎵</div>
+                    <h4>Conciertos Live</h4>
+                    <p>The Franzese, Turbo y karaoke interactivo para cerrar cada día.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Schedule Section -->
+    <section id="horario" class="section schedule-section">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">
+                <span class="title-icon">📅</span>
+                Horario del Evento
+                <span class="title-decoration"></span>
+            </h2>
+
+            <div class="schedule-tabs">
+                <button class="tab-btn active" data-day="lunes">Lunes</button>
+                <button class="tab-btn" data-day="martes">Martes</button>
+                <button class="tab-btn" data-day="miercoles">Miércoles</button>
+                <button class="tab-btn" data-day="jueves">Jueves</button>
+                <button class="tab-btn" data-day="viernes">Viernes</button>
+                <button class="tab-btn" data-day="sabado">Sábado</button>
+                <button class="tab-btn" data-day="domingo">Domingo</button>
+            </div>
+
+            <div class="schedule-content">
+                <div class="schedule-day active" id="lunes">
+                    <div class="timeline">
+                        <div class="timeline-item" data-aos="fade-left">
+                            <div class="timeline-time">11:00</div>
+                            <div class="timeline-content">
+                                <h4>🚪 Apertura</h4>
+                                <p>Bienvenida y acreditación de participantes</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item" data-aos="fade-left" data-aos-delay="100">
+                            <div class="timeline-time">12:00</div>
+                            <div class="timeline-content">
+                                <h4>👗 Zona Cosplays</h4>
+                                <p>Exhibición y registro de cosplays</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item" data-aos="fade-left" data-aos-delay="200">
+                            <div class="timeline-time">12:30</div>
+                            <div class="timeline-content">
+                                <h4>🍔 Pausa Comida</h4>
+                                <p>Menús de McDonald's y zona chill</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item" data-aos="fade-left" data-aos-delay="300">
+                            <div class="timeline-time">17:00</div>
+                            <div class="timeline-content">
+                                <h4>🎮 Valorant Comp.</h4>
+                                <p>Competición principal del día</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item" data-aos="fade-left" data-aos-delay="400">
+                            <div class="timeline-time">18:00</div>
+                            <div class="timeline-content">
+                                <h4>🏆 Torneos Secundarios</h4>
+                                <p>Competiciones alternativas</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item" data-aos="fade-left" data-aos-delay="500">
+                            <div class="timeline-time">18:30-20:00</div>
+                            <div class="timeline-content">
+                                <h4>⚡ Actividad Especial</h4>
+                                <p>Sorpresas y eventos únicos</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item" data-aos="fade-left" data-aos-delay="600">
+                            <div class="timeline-time">20:00-21:00</div>
+                            <div class="timeline-content">
+                                <h4>🍕 Cena</h4>
+                                <p>Cena y zona de relax</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item" data-aos="fade-left" data-aos-delay="700">
+                            <div class="timeline-time">22:00</div>
+                            <div class="timeline-content">
+                                <h4>🎵 Concierto</h4>
+                                <p>Música en vivo para cerrar el día</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Otros días tendrían contenido similar pero con las competiciones correspondientes -->
+            </div>
+
+            <div class="schedule-note">
+                <p><strong>Nota:</strong> El horario puede variar según el día. Consulta la app del evento para actualizaciones en tiempo real.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Competitions Section -->
+    <section id="competiciones" class="section competitions-section">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">
+                <span class="title-icon">🏆</span>
+                Competiciones
+                <span class="title-decoration"></span>
+            </h2>
+
+            <div class="competitions-grid">
+                <div class="competition-card" data-aos="flip-left">
+                    <div class="competition-image valorant-bg"></div>
+                    <div class="competition-content">
+                        <h3>Valorant</h3>
+                        <p class="competition-day">Domingo</p>
+                        <p>El torneo principal con los mejores equipos. Premios épicos y reconocimiento garantizado.</p>
+                        <div class="competition-prize">🏆 Premio: 5000 XP + Trofeo</div>
+                    </div>
+                </div>
+
+                <div class="competition-card" data-aos="flip-left" data-aos-delay="100">
+                    <div class="competition-image lol-bg"></div>
+                    <div class="competition-content">
+                        <h3>League of Legends</h3>
+                        <p class="competition-day">Martes</p>
+                        <p>Demuestra tu dominio en el Rift. Equipos de 5 jugadores en batallas épicas.</p>
+                        <div class="competition-prize">🏆 Premio: 4000 XP + Merchandising</div>
+                    </div>
+                </div>
+
+                <div class="competition-card" data-aos="flip-left" data-aos-delay="200">
+                    <div class="competition-image rocket-bg"></div>
+                    <div class="competition-content">
+                        <h3>Rocket League</h3>
+                        <p class="competition-day">Miércoles</p>
+                        <p>Fútbol con coches. Equipos de 3v3 en la competición más explosiva.</p>
+                        <div class="competition-prize">🏆 Premio: 3000 XP + Entrada VIP</div>
+                    </div>
+                </div>
+
+                <div class="competition-card" data-aos="flip-left" data-aos-delay="300">
+                    <div class="competition-image rainbow-bg"></div>
+                    <div class="competition-content">
+                        <h3>Rainbow Six Siege</h3>
+                        <p class="competition-day">Jueves</p>
+                        <p>Táctica y estrategia al máximo nivel. Equipos de 5 en combate táctico.</p>
+                        <div class="competition-prize">🏆 Premio: 3500 XP + Periféricos</div>
+                    </div>
+                </div>
+
+                <div class="competition-card" data-aos="flip-left" data-aos-delay="400">
+                    <div class="competition-image cs-bg"></div>
+                    <div class="competition-content">
+                        <h3>CS:GO</h3>
+                        <p class="competition-day">Viernes</p>
+                        <p>El clásico que nunca muere. Demuestra tu puntería y estrategia.</p>
+                        <div class="competition-prize">🏆 Premio: 4500 XP + Hardware</div>
+                    </div>
+                </div>
+
+                <div class="competition-card" data-aos="flip-left" data-aos-delay="500">
+                    <div class="competition-image marvel-bg"></div>
+                    <div class="competition-content">
+                        <h3>Marvel Rivals</h3>
+                        <p class="competition-day">Sábado</p>
+                        <p>Combates épicos con tus superhéroes favoritos del universo Marvel.</p>
+                        <div class="competition-prize">🏆 Premio: 3000 XP + Camiseta Exclusiva</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Surprise Events -->
+            <div class="surprise-events">
+                <h3 data-aos="fade-up">❓ Eventos Sorpresa</h3>
+                <div class="surprise-grid">
+                    <div class="surprise-card" data-aos="zoom-in">
+                        <div class="surprise-icon">💻</div>
+                        <h4>Código Invertido</h4>
+                        <p>18:00 - Reto de programación inversa</p>
+                        <span class="prize-tag">Premio: 10 XP + Ranking Especial</span>
+                    </div>
+                    <div class="surprise-card" data-aos="zoom-in" data-aos-delay="100">
+                        <div class="surprise-icon">🧠</div>
+                        <h4>Trivia LAN</h4>
+                        <p>20:30 - Preguntas sobre cultura gamer</p>
+                        <span class="prize-tag">Premio: Camiseta Exclusiva XP</span>
+                    </div>
+                    <div class="surprise-card" data-aos="zoom-in" data-aos-delay="200">
+                        <div class="surprise-icon">👾</div>
+                        <h4>Boss Final</h4>
+                        <p>23:30 - Desafío conjunto con el público</p>
+                        <span class="prize-tag">Premio: Entrada Gratis + NFT</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cosplay Section -->
+    <section id="cosplay" class="section cosplay-section">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">
+                <span class="title-icon">👗</span>
+                Competición de Cosplay
+                <span class="title-decoration"></span>
+            </h2>
+
+            <div class="cosplay-intro" data-aos="fade-up">
+                <p class="intro-text">Durante la LAN XP, cada jugador deberá participar <strong>disfrazado del personaje que utilice en el torneo</strong>. Esta dinámica busca unir el mundo virtual y el real, potenciando la inmersión y la creatividad de los participantes.</p>
+            </div>
+
+            <div class="cosplay-categories">
+                <div class="category-card" data-aos="fade-right">
+                    <div class="category-icon">🎭</div>
+                    <h3>Mejor Cosplay Individual</h3>
+                    <p>Valoración general del traje, interpretación y fidelidad al personaje</p>
+                    <div class="category-prize">
+                        <span class="medal">🥇</span>
+                        <span>100 XP + Entrada VIP próxima LAN</span>
+                    </div>
+                </div>
+
+                <div class="category-card" data-aos="fade-up">
+                    <div class="category-icon">👥</div>
+                    <h3>Mejor Grupo Cosplay</h3>
+                    <p>Equipos de 2 o más personas con temática conjunta</p>
+                    <div class="category-prize">
+                        <span class="medal">🥈</span>
+                        <span>50 XP + Camiseta Exclusiva XP</span>
+                    </div>
+                </div>
+
+                <div class="category-card" data-aos="fade-left">
+                    <div class="category-icon">✨</div>
+                    <h3>Cosplay Original</h3>
+                    <p>Diseño o reinterpretación libre inspirada en el universo gamer</p>
+                    <div class="category-prize">
+                        <span class="medal">🥉</span>
+                        <span>25 XP + Acceso Zona Conciertos</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cosplay-criteria" data-aos="fade-up">
+                <h3>📋 Criterios de Evaluación</h3>
+                <ul class="criteria-list">
+                    <li>
+                        <span class="criteria-icon">✓</span>
+                        <span>Fidelidad al personaje representado</span>
+                    </li>
+                    <li>
+                        <span class="criteria-icon">✓</span>
+                        <span>Calidad y detalle del disfraz</span>
+                    </li>
+                    <li>
+                        <span class="criteria-icon">✓</span>
+                        <span>Actitud e interpretación durante la presentación</span>
+                    </li>
+                    <li>
+                        <span class="criteria-icon">✓</span>
+                        <span>Originalidad y creatividad en el diseño</span>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="cosplay-gallery">
+                <div class="gallery-item" data-aos="zoom-in">
+                    <div class="gallery-placeholder cosplay-1"></div>
+                </div>
+                <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="gallery-placeholder cosplay-2"></div>
+                </div>
+                <div class="gallery-item" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="gallery-placeholder cosplay-3"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- XP Store Section -->
+    <section id="tienda" class="section store-section">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">
+                <span class="title-icon">🛒</span>
+                Tienda XP
+                <span class="title-decoration"></span>
+            </h2>
+
+            <div class="store-intro" data-aos="fade-up">
+                <div class="xp-coin">🪙</div>
+                <p>La <strong>Tienda XP</strong> es el punto oficial donde podrás intercambiar las monedas XP obtenidas durante el evento por productos exclusivos.</p>
+                <p class="store-subtitle">Gana monedas participando, reciclando en la Papelera XP o ganando actividades</p>
+            </div>
+
+            <div class="products-grid">
+                <div class="product-card" data-aos="flip-up">
+                    <div class="product-badge">Popular</div>
+                    <div class="product-icon">🥤</div>
+                    <h3>Mojito sin alcohol</h3>
+                    <p>Refrescante bebida para recargar energía</p>
+                    <div class="product-price">
+                        <span class="price-xp">10</span>
+                        <span class="price-coin">🪙 XP</span>
+                    </div>
+                </div>
+
+                <div class="product-card" data-aos="flip-up" data-aos-delay="50">
+                    <div class="product-badge hot">Hot</div>
+                    <div class="product-icon">👕</div>
+                    <h3>Camiseta oficial</h3>
+                    <p>Camiseta del evento con diseño exclusivo</p>
+                    <div class="product-price">
+                        <span class="price-xp">20</span>
+                        <span class="price-coin">🪙 XP</span>
+                    </div>
+                </div>
+
+                <div class="product-card" data-aos="flip-up" data-aos-delay="100">
+                    <div class="product-icon">🧃</div>
+                    <h3>Coca-Cola</h3>
+                    <p>Bebida clásica del evento</p>
+                    <div class="product-price">
+                        <span class="price-xp">7</span>
+                        <span class="price-coin">🪙 XP</span>
+                    </div>
+                </div>
+
+                <div class="product-card" data-aos="flip-up" data-aos-delay="150">
+                    <div class="product-icon">🍰</div>
+                    <h3>Pastel especial</h3>
+                    <p>Porción de pastel temático de la LAN Party</p>
+                    <div class="product-price">
+                        <span class="price-xp">30</span>
+                        <span class="price-coin">🪙 XP</span>
+                    </div>
+                </div>
+
+                <div class="product-card" data-aos="flip-up" data-aos-delay="200">
+                    <div class="product-badge">VIP</div>
+                    <div class="product-icon">🎟</div>
+                    <h3>Entrada sorteo VIP</h3>
+                    <p>Participa en un sorteo especial para asistentes</p>
+                    <div class="product-price">
+                        <span class="price-xp">15</span>
+                        <span class="price-coin">🪙 XP</span>
+                    </div>
+                </div>
+
+                <div class="product-card" data-aos="flip-up" data-aos-delay="250">
+                    <div class="product-badge exclusive">Exclusivo</div>
+                    <div class="product-icon">🎮</div>
+                    <h3>Accesorio gamer sorpresa</h3>
+                    <p>Producto limitado solo durante el evento</p>
+                    <div class="product-price">
+                        <span class="price-xp">25</span>
+                        <span class="price-coin">🪙 XP</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Recycling XP -->
+            <div class="recycling-xp" data-aos="fade-up">
+                <div class="recycling-content">
+                    <div class="recycling-icon">♻️</div>
+                    <div class="recycling-text">
+                        <h3>Papelera XP</h3>
+                        <p>¡Recicla y gana monedas XP! Cada vez que deposites correctamente un residuo en la papelera, obtendrás <strong>1 moneda XP</strong>. Cuida el medio ambiente y consigue recompensas.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tickets Section -->
+    <section id="entradas" class="section tickets-section">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">
+                <span class="title-icon">🎟</span>
+                Consigue tu Entrada
+                <span class="title-decoration"></span>
+            </h2>
+
+            <div class="tickets-intro" data-aos="fade-up">
+                <div class="access-badge">
+                    <div class="badge-icon">🔐</div>
+                    <h3>Acceso Protegido</h3>
+                    <p>Solo quienes reciban la invitación oficial podrán entrar. Al llegar, se te entregará un papel con la contraseña secreta.</p>
+                    <div class="password-box">
+                        <span class="password-label">Contraseña oficial:</span>
+                        <code class="password-code">127.0.0.1</code>
+                    </div>
+                    <p class="password-hint">💡 Pista: no intentes hacer ping, no hay red que te salve.</p>
+                </div>
+            </div>
+
+            <div class="tickets-grid">
+                <div class="ticket-card" data-aos="zoom-in">
+                    <div class="ticket-header">
+                        <h3>Entrada Normal</h3>
+                        <div class="ticket-badge basic">Básica</div>
+                    </div>
+                    <div class="ticket-price">
+                        <span class="price-amount">50</span>
+                        <span class="price-currency">€</span>
+                    </div>
+                    <ul class="ticket-features">
+                        <li><span class="check">✓</span> Acceso a todas las competiciones</li>
+                        <li><span class="check">✓</span> Zona de torneos secundarios</li>
+                        <li><span class="check">✓</span> Acceso a la zona de cosplay</li>
+                        <li><span class="check">✓</span> Tienda XP disponible</li>
+                        <li><span class="check">✓</span> Conciertos nocturnos</li>
+                    </ul>
+                    <button class="btn-ticket">
+                        <span>Comprar Entrada</span>
+                    </button>
+                    <p class="ticket-availability">1000 entradas disponibles</p>
+                </div>
+
+                <div class="ticket-card featured" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="ticket-popular">⭐ Más Popular</div>
+                    <div class="ticket-header">
+                        <h3>Entrada VIP</h3>
+                        <div class="ticket-badge vip">VIP</div>
+                    </div>
+                    <div class="ticket-price">
+                        <span class="price-amount">80</span>
+                        <span class="price-currency">€</span>
+                    </div>
+                    <ul class="ticket-features">
+                        <li><span class="check">✓</span> Todo lo de Entrada Normal</li>
+                        <li><span class="check">✓</span> Camiseta oficial incluida</li>
+                        <li><span class="check">✓</span> 50 monedas XP de regalo</li>
+                        <li><span class="check">✓</span> Zona VIP con asientos premium</li>
+                        <li><span class="check">✓</span> Meet & Greet con streamers</li>
+                        <li><span class="check">✓</span> Acceso prioritario</li>
+                    </ul>
+                    <button class="btn-ticket">
+                        <span>Comprar VIP</span>
+                    </button>
+                    <p class="ticket-availability">300 entradas disponibles</p>
+                </div>
+
+                <div class="ticket-card" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="ticket-header">
+                        <h3>Entrada "Con Todo"</h3>
+                        <div class="ticket-badge premium">Premium</div>
+                    </div>
+                    <div class="ticket-price">
+                        <span class="price-amount">100</span>
+                        <span class="price-currency">€</span>
+                    </div>
+                    <ul class="ticket-features">
+                        <li><span class="check">✓</span> Todo lo de Entrada VIP</li>
+                        <li><span class="check">✓</span> Comidas incluidas (todas)</li>
+                        <li><span class="check">✓</span> 100 monedas XP de regalo</li>
+                        <li><span class="check">✓</span> Merchandising exclusivo</li>
+                        <li><span class="check">✓</span> Foto con los campeones</li>
+                        <li><span class="check">✓</span> Backstage pass</li>
+                        <li><span class="check">✓</span> Sorteo camiseta única</li>
+                    </ul>
+                    <button class="btn-ticket">
+                        <span>Comprar Premium</span>
+                    </button>
+                    <p class="ticket-availability">200 entradas disponibles</p>
+                </div>
+            </div>
+
+            <div class="tickets-note" data-aos="fade-up">
+                <p>⚠️ <strong>Importante:</strong> Las entradas son limitadas y se venden por orden de llegada. No te quedes sin la tuya.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sponsors Section -->
+    <section class="section sponsors-section">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">
+                <span class="title-icon">🤝</span>
+                Nuestros Patrocinadores
+                <span class="title-decoration"></span>
+            </h2>
+
+            <div class="sponsors-grid">
+                <div class="sponsor-card" data-aos="fade-up">
+                    <div class="sponsor-logo coca-cola">Coca-Cola</div>
+                    <p class="sponsor-contribution">1.000.000 € + Locales de venta</p>
+                </div>
+                <div class="sponsor-card" data-aos="fade-up" data-aos-delay="50">
+                    <div class="sponsor-logo mcdonalds">McDonald's</div>
+                    <p class="sponsor-contribution">500.000 € + Puestos de comida</p>
+                </div>
+                <div class="sponsor-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="sponsor-logo redbull">Red Bull</div>
+                    <p class="sponsor-contribution">60.000 € + Bebidas y promoción</p>
+                </div>
+                <div class="sponsor-card" data-aos="fade-up" data-aos-delay="150">
+                    <div class="sponsor-logo microsoft">Microsoft</div>
+                    <p class="sponsor-contribution">300.000 € + Presentación productos</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contacto" class="section contact-section">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">
+                <span class="title-icon">📧</span>
+                Contacto
+                <span class="title-decoration"></span>
+            </h2>
+
+            <div class="contact-grid">
+                <div class="contact-info" data-aos="fade-right">
+                    <h3>Equipo Organizador</h3>
+                    <p>Proyecto_LAN1</p>
+
+                    <div class="team-members">
+                        <div class="team-member">
+                            <div class="member-icon">👤</div>
+                            <div class="member-info">
+                                <h4>Rayan Azougagh</h4>
+                                <a href="mailto:z1666697f@iespoblenou.org">z1666697f@iespoblenou.org</a>
+                            </div>
+                        </div>
+                        <div class="team-member">
+                            <div class="member-icon">👤</div>
+                            <div class="member-info">
+                                <h4>Gorka Núñez Lleixà</h4>
+                                <a href="mailto:24487892e@iespoblenou.org">24487892e@iespoblenou.org</a>
+                            </div>
+                        </div>
+                        <div class="team-member">
+                            <div class="member-icon">👤</div>
+                            <div class="member-info">
+                                <h4>Marc Mancilla Palomar</h4>
+                                <a href="mailto:26064787z@iespoblenou.org">26064787z@iespoblenou.org</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="location-info">
+                        <h4>📍 Ubicación</h4>
+                        <p>Palau Sant Jordi, Barcelona</p>
+                        <p>Capacidad: 167.000 personas</p>
+                    </div>
+                </div>
+
+                <div class="contact-form-wrapper" data-aos="fade-left">
+                    <form class="contact-form" id="contactForm">
+                        <h3>Envíanos un mensaje</h3>
+                        <div class="form-group">
+                            <input type="text" placeholder="Tu nombre" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Tu email" required>
+                        </div>
+                        <div class="form-group">
+                            <select required>
+                                <option value="">Selecciona un tema</option>
+                                <option value="entradas">Entradas</option>
+                                <option value="patrocinio">Patrocinio</option>
+                                <option value="competiciones">Competiciones</option>
+                                <option value="otros">Otros</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Tu mensaje" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn-submit">
+                            <span>Enviar Mensaje</span>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>LAN XP</h3>
+                    <p>La LAN Party más innovadora y sostenible. Donde el gaming se encuentra con la creatividad.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link">
+                            <span>📘</span>
+                        </a>
+                        <a href="#" class="social-link">
+                            <span>🐦</span>
+                        </a>
+                        <a href="#" class="social-link">
+                            <span>📸</span>
+                        </a>
+                        <a href="#" class="social-link">
+                            <span>🎮</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Enlaces Rápidos</h4>
+                    <ul class="footer-links">
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#evento">El Evento</a></li>
+                        <li><a href="#horario">Horario</a></li>
+                        <li><a href="#entradas">Entradas</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Información</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Términos y Condiciones</a></li>
+                        <li><a href="#">Política de Privacidad</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Newsletter</h4>
+                    <p>Recibe las últimas novedades del evento</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Tu email">
+                        <button type="submit">→</button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2025 LAN XP. Todos los derechos reservados. | Creado por Marc, Rayan y Gorka</p>
+                <p class="footer-ip">🔐 127.0.0.1 - Tu acceso al mejor evento gaming</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop">
+        <span>↑</span>
+    </button>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
